@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cocos *.css
+recursive-include cocos *.csv
+recursive-include cocos *.html
+recursive-include cocos *.ico
+recursive-include cocos *.js
+recursive-include cocos *.json
+recursive-include cocos *.md
+recursive-include cocos *.png
+recursive-include cocos *.py
+recursive-include cocos *.svg
+recursive-include cocos *.txt
+recursive-exclude cocos *.pyc
